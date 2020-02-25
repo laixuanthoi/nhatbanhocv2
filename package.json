@@ -1,0 +1,13 @@
+{
+  "name": "nhatbanhocv2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/laixuanthoi/nhatbanhocv2.git",
+  "author": "Leo Pham <hongthaipro@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "grunt": "^1.0.4",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-uncss": "^0.9.0"
+  }
+}
