@@ -67,3 +67,34 @@ body,
     column-width: 100%;
   }
 }
+
+#du-hoc {
+  background-image: linear-gradient(
+    to right,
+    #f78ca0 0%,
+    #f9748f 19%,
+    #fd868c 60%,
+    #fe9a8b 100%
+  );
+}
+
+#thongtin {
+  background-image: url("/assets/img/bg-chuong-trinh.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#thongtin h6::after {
+  content: "";
+  background-color: red;
+  display: block;
+  height: 2px;
+  width: 20%;
+  margin: 1rem 0;
+}
+
+#thongtin p {
+  line-height: 2.5em;
+  word-spacing: 0.1em;
+}
