@@ -7,7 +7,9 @@ module.exports = function(grunt) {
     },
     cssmin: {
       dist: {
-        files: [{ src: "cleancss/tidy.css", dest: "cleancss/tidy.min.css" }]
+        files: [
+          { src: "cleancss/tidy.css", dest: "assets/css/mystyle.min.css" }
+        ]
       }
     }
   });
