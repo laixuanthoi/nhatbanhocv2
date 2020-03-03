@@ -72,30 +72,11 @@
       body,
       header,
       .carousel {
-        height: 60vh;
         scroll-behavior: smooth;
       }
 
       section {
         padding: 50px 0;
-      }
-
-      @media (max-width: 740px) {
-        html,
-        body,
-        header,
-        .carousel {
-          height: 100vh;
-        }
-      }
-
-      @media (min-width: 800px) and (max-width: 850px) {
-        html,
-        body,
-        header,
-        .carousel {
-          height: 100vh;
-        }
       }
 
       @media (min-width: 800px) and (max-width: 850px) {
@@ -750,8 +731,8 @@
             <!--/Grid row-->
           </div>
           <div class="container">
-            <div class="row">
-              <div class="col-md-6 col-lg-4">
+            <div class="d-flex flex-column flex-md-row">
+              <div class="pb-2 p-md-2">
                 <a class="card hoverable mb-3">
                   <!-- Card image -->
                   <img
@@ -761,7 +742,7 @@
                   />
                 </a>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div class="pb-2 p-md-2">
                 <a class="card hoverable mb-3">
                   <!-- Card image -->
                   <img
@@ -771,7 +752,7 @@
                   />
                 </a>
               </div>
-              <div class="col-md-6 col-lg-4">
+              <div class="pb-2 p-md-2">
                 <a class="card hoverable mb-3">
                   <!-- Card image -->
                   <img
@@ -782,8 +763,8 @@
                 </a>
               </div>
             </div>
-            <div class="row">
-              <div class="col-md-6">
+            <div class="d-flex flex-column flex-md-row">
+              <div class="pb-2 p-md-2">
                 <a class="card hoverable mb-3">
                   <!-- Card image -->
                   <img
@@ -793,7 +774,7 @@
                   />
                 </a>
               </div>
-              <div class="col-md-6">
+              <div class="pb-2 p-md-2">
                 <a class="card hoverable mb-3">
                   <!-- Card image -->
                   <img
@@ -813,7 +794,7 @@
         <section id="thongtin">
           <div class="container text-white">
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-4 mb-3">
                 <h6 class="font-weight-bold">TỔ HỢP MÔN XÉT TUYỂN</h6>
                 <p>
                   <i class="far fa-check-square orange-text "></i> Văn, Sử, Địa
@@ -826,7 +807,7 @@
                   (C00) <br />
                 </p>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 mb-3">
                 <h6 class="font-weight-bold">HỆ ĐÀO TẠO VÀ THỜI GIAN</h6>
                 <p>
                   <i class="fas fa-award orange-text"></i> Đại học chính quy.
@@ -836,7 +817,7 @@
                   doanh nghiệp
                 </p>
               </div>
-              <div class="col-md-4">
+              <div class="col-md-4 mb-3">
                 <h6 class="font-weight-bold">CHƯƠNG TRÌNH ĐÀO TẠO</h6>
                 <p>
                   <i class="far fa-check-square orange-text"></i> Kỹ năng nghe -
