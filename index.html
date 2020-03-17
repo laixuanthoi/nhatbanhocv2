@@ -63,8 +63,8 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <link href="./assets/css/mdb.css" rel="stylesheet" />
-    <link href="./assets/css/style.min.css" rel="stylesheet" />
+    <!-- <link href="assets/css/mdb.css" rel="stylesheet" /> -->
+    <link href="assets/css/style.min.css" rel="stylesheet" />
     <!-- <link rel="stylesheet" href="./assets/css/mystyle.min.css" /> -->
 
     <style type="text/css">
@@ -117,34 +117,21 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <!-- Left -->
           <ul class="navbar-nav mr-auto">
-            <li
-              class="nav-item active"
-              data-toggle="collapse"
-              data-target=".navbar-collapse.show"
-            >
+            <li class="nav-item" data-toggle="collapse">
               <a class="nav-link" href="#nganhhoc">Ngành Nhật Bản </a>
             </li>
-            <li
-              class="nav-item"
-              data-toggle="collapse"
-              data-target=".navbar-collapse.show"
-            >
+            <li class="nav-item" data-toggle="collapse">
               <a class="nav-link" href="#moi-truong-hoc-tap"
                 >Môi trường học tập</a
               >
             </li>
-            <li
-              class="nav-item"
-              data-toggle="collapse"
-              data-target=".navbar-collapse.show"
-            >
+            <li class="nav-item" data-toggle="collapse">
               <a class="nav-link" href="#thongtin">Thông tin</a>
             </li>
-            <li
-              class="nav-item"
-              data-toggle="collapse"
-              data-target=".navbar-collapse.show"
-            >
+            <li class="nav-item" data-toggle="collapse">
+              <a class="nav-link" href="#nganh-lien-quan">Ngành liên quan</a>
+            </li>
+            <li class="nav-item" data-toggle="collapse">
               <a class="nav-link" href="#lienhe">Liên hệ</a>
             </li>
           </ul>
@@ -157,6 +144,7 @@
                 class="nav-link border border-light rounded"
                 target="_blank"
                 rel="noopener"
+                style="display: inline; padding:8px 16px;"
               >
                 <i class="fas fa-pen"></i> ĐĂNG KÝ NGAY
               </a>
@@ -167,729 +155,666 @@
     </nav>
     <!-- Navbar -->
 
-    <!--Carousel Wrapper-->
-    <div
-      id="carousel-example-1z"
-      class="carousel slide carousel-fade"
-      data-ride="carousel"
-    >
-      <!--Slides-->
-      <div class="carousel-inner">
-        <!--First slide-->
-        <div class="carousel-item active ">
-          <div
-            class="view"
-            style="background-image: url('./assets/img/banner/japan-banner-1-2.webp'); background-repeat: no-repeat; background-size: cover;"
+    <div id="japan-banner">
+      <!-- <img
+        src="assets/img/banner/japan-banner-1-2.jpg"
+        class="img-fluid"
+        alt=""
+      /> -->
+      <div
+        class="d-flex flex-column justify-content-end align-items-center h-100 text-center"
+      >
+        <h1 class="mb-4">
+          <strong>NHẬT BẢN HỌC</strong>
+        </h1>
+
+        <p>
+          <strong>"KẾT NỐI HÀNH TRÌNH DU NGOẠN ĐÔNG PHƯƠNG"</strong>
+        </p>
+
+        <p class="mb-4 d-none d-md-block">
+          <strong
+            >Đại Học Lạc Hồng tự hào là một trong các trường đại học hàng đầu cả
+            nước đào tạo cử nhân Nhật Bản Học.</strong
           >
-            <!-- Mask & flexbox options-->
-            <div
-              class="mask rgba-black-light d-flex justify-content-center align-items-center"
-            >
-              <!-- Content -->
-              <div class="wow fadeIn text-center white-text mx-5">
-                <h1 class="mb-4">
-                  <strong>NHẬT BẢN HỌC</strong>
-                </h1>
+        </p>
 
-                <p>
-                  <strong>"KẾT NỐI HÀNH TRÌNH DU NGOẠN ĐÔNG PHƯƠNG"</strong>
-                </p>
-
-                <p class="mb-4 d-none d-md-block">
-                  <strong
-                    >Đại Học Lạc Hồng tự hào là một trong các trường đại học
-                    hàng đầu cả nước đào tạo cử nhân Nhật Bản Học.</strong
-                  >
-                </p>
-
-                <a
-                  target="_blank"
-                  href="https://tuyensinh.lhu.edu.vn/dang-ky-xet-tuyen"
-                  class="btn btn-outline-white btn-lg"
-                  rel="noopener"
-                  >Đăng ký học
-                  <i class="fas fa-graduation-cap ml-2"></i>
-                </a>
-              </div>
-              <!-- Content -->
-            </div>
-            <!-- Mask & flexbox options-->
-          </div>
-        </div>
-        <!--/First slide-->
-
-        <!--Second slide-->
-        <div class="carousel-item">
-          <div
-            class="view"
-            style="background-image: url('./assets/img/banner/japan-banner-2.webp'); background-repeat: no-repeat; background-size: cover;"
-          >
-            <!-- Mask & flexbox options-->
-            <div
-              class="mask rgba-black-light d-flex justify-content-center align-items-center"
-            >
-              <!-- Content -->
-              <div class="text-center white-text mx-5 wow fadeIn">
-                <h1 class="mb-4">
-                  <strong>NHẬT BẢN HỌC</strong>
-                </h1>
-
-                <p>
-                  <strong>"KẾT NỐI HÀNH TRÌNH DU NGOẠN ĐÔNG PHƯƠNG"</strong>
-                </p>
-
-                <p class="mb-4 d-none d-md-block">
-                  <strong
-                    >Đại Học Lạc Hồng tự hào là một trong các trường đại học
-                    hàng đầu cả nước đào tạo cử nhân Nhật Bản Học.</strong
-                  >
-                </p>
-
-                <a
-                  target="_blank"
-                  href="https://tuyensinh.lhu.edu.vn/dang-ky-xet-tuyen"
-                  rel="noopener"
-                  class="btn btn-outline-white btn-lg"
-                  >Đăng ký học
-                  <i class="fas fa-graduation-cap ml-2"></i>
-                </a>
-              </div>
-              <!-- Content -->
-            </div>
-            <!-- Mask & flexbox options-->
-          </div>
-        </div>
-        <!--/Second slide-->
-
-        <!--Third slide-->
-        <div class="carousel-item">
-          <div
-            class="view"
-            style="background-image: url('./assets/img/banner/japan-banner-3.webp'); background-repeat: no-repeat; background-size: cover;"
-          >
-            <!-- Mask & flexbox options-->
-            <div
-              class="mask rgba-black-light d-flex justify-content-center align-items-center"
-            >
-              <!-- Content -->
-              <div class="text-center white-text mx-5 wow fadeIn">
-                <h1 class="mb-4">
-                  <strong>NHẬT BẢN HỌC</strong>
-                </h1>
-
-                <p>
-                  <strong>"KẾT NỐI HÀNH TRÌNH DU NGOẠN ĐÔNG PHƯƠNG"</strong>
-                </p>
-
-                <p class="mb-4 d-none d-md-block">
-                  <strong
-                    >Đại Học Lạc Hồng tự hào là một trong các trường đại học
-                    hàng đầu cả nước đào tạo cử nhân Nhật Bản Học.</strong
-                  >
-                </p>
-
-                <a
-                  target="_blank"
-                  rel="noopener"
-                  href="https://tuyensinh.lhu.edu.vn/dang-ky-xet-tuyen"
-                  class="btn btn-outline-white btn-lg"
-                  >Đăng ký học
-                  <i class="fas fa-graduation-cap ml-2"></i>
-                </a>
-              </div>
-              <!-- Content -->
-            </div>
-            <!-- Mask & flexbox options-->
-          </div>
-        </div>
-        <!--/Third slide-->
+        <a
+          target="_blank"
+          href="https://tuyensinh.lhu.edu.vn/dang-ky-xet-tuyen"
+          class="btn btn-outline-white btn-lg"
+          rel="noopener"
+          >Đăng ký học
+          <i class="fas fa-graduation-cap ml-2"></i>
+        </a>
       </div>
-      <!--/.Slides-->
-
-      <!--Controls-->
-      <a
-        class="carousel-control-prev"
-        href="#carousel-example-1z"
-        role="button"
-        data-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Trước</span>
-      </a>
-      <a
-        class="carousel-control-next"
-        href="#carousel-example-1z"
-        role="button"
-        data-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Tiếp</span>
-      </a>
-      <!--/.Controls-->
     </div>
-    <!--/.Carousel Wrapper-->
 
     <!--Main layout-->
     <main>
-      <div>
-        <!--Section: Banner-->
-        <section id="nganhhoc">
-          <div class="container">
-            <!--Grid row-->
-            <div class="row">
-              <!--Grid column-->
-              <div class="col-md-6 mb-4">
-                <img
-                  data-src="./assets/img/other/tai-sao-ban-nen-hoc-tieng-nhat-tai-lhu.webp"
-                  class="img-fluid z-depth-1-half lazy-image"
-                  alt="học Nhật Bản học tại Đại Học Lạc Hồng"
-                />
-              </div>
-              <!--Grid column-->
+      <!--Section: Banner-->
+      <section id="nganhhoc">
+        <div class="container">
+          <!--Grid row-->
+          <div class="row">
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+              <img
+                data-src="assets/img/other/tai-sao-ban-nen-hoc-tieng-nhat-tai-lhu.webp"
+                class="img-fluid z-depth-1-half lazy-image"
+                alt="học Nhật Bản học tại Đại Học Lạc Hồng"
+              />
+            </div>
+            <!--Grid column-->
 
-              <!--Grid column-->
-              <div class="col-md-6 mb-4">
-                <!-- Main heading -->
-                <h3 class="font-weight-normal h3 mb-3">
-                  Cơ hội thăm quan xứ sở Hoa Anh Đào
-                </h3>
+            <!--Grid column-->
+            <div class="col-md-6 mb-4">
+              <!-- Main heading -->
+              <h3 class="font-weight-normal h3 mb-3">
+                Cơ hội thăm quan xứ sở Hoa Anh Đào
+              </h3>
+              <p>
+                Có vô vàn lý do khiến bạn nên chọn
+                <strong>Đại Học Lạc Hồng</strong> là nơi gửi gắm ước mơ của
+                mình. Sau khi tốt nghiệp <strong>Ngành Nhật Bản</strong>, các
+                bạn hoàn toàn có thể:
+              </p>
+              <hr />
+
+              <div>
                 <p>
-                  Có vô vàn lý do khiến bạn nên chọn
-                  <strong>Đại Học Lạc Hồng</strong> là nơi gửi gắm ước mơ của
-                  mình. Sau khi tốt nghiệp <strong>Ngành Nhật Bản</strong>, các
-                  bạn hoàn toàn có thể:
+                  <i class="fas fa-check-circle" style="color:#fb3"></i>
+                  <strong
+                    >Cơ hội được thực tập và làm việc tại Nhật Bản.</strong
+                  >
                 </p>
-                <hr />
-
-                <div>
-                  <p>
-                    <i class="fas fa-check-circle" style="color:#fb3"></i>
-                    <strong
-                      >Cơ hội được thực tập và làm việc tại Nhật Bản.</strong
-                    >
-                  </p>
-                  <p>
-                    <i class="far fa-check-circle" style="color:#fb3"></i> Thông
-                    dịch, thư ký cho các giám đốc người Nhật.
-                  </p>
-                  <p>
-                    <i class="far fa-check-circle" style="color:#fb3"></i> Người
-                    đại diện văn phòng Nhật Bản tại Việt Nam.
-                  </p>
-                </div>
-                <a
-                  target="_blank"
-                  href="https://www.youtube.com/watch?v=lnoy8MlZGik"
-                  rel="noopener"
-                  class="btn btn-indigo btn-md"
-                  >Xem ngay video
-                  <i class="fab fa-youtube"></i>
-                </a>
-                <a
-                  target="_blank"
-                  href="https://tuyensinh.lhu.edu.vn/dang-ky-xet-tuyen"
-                  rel="noopener"
-                  class="btn btn-primary btn-md"
-                  >Xét tuyển ngay
-                  <i class="fas fa-file-alt"></i>
-                </a>
+                <p>
+                  <i class="far fa-check-circle" style="color:#fb3"></i> Thông
+                  dịch, thư ký cho các giám đốc người Nhật.
+                </p>
+                <p>
+                  <i class="far fa-check-circle" style="color:#fb3"></i> Người
+                  đại diện văn phòng Nhật Bản tại Việt Nam.
+                </p>
               </div>
-              <!--Grid column-->
+              <a
+                target="_blank"
+                href="https://www.youtube.com/watch?v=lnoy8MlZGik"
+                rel="noopener"
+                class="btn btn-indigo btn-md"
+                >Xem ngay video
+                <i class="fab fa-youtube"></i>
+              </a>
+              <a
+                target="_blank"
+                href="https://tuyensinh.lhu.edu.vn/dang-ky-xet-tuyen"
+                rel="noopener"
+                class="btn btn-primary btn-md"
+                >Xét tuyển ngay
+                <i class="fas fa-file-alt"></i>
+              </a>
             </div>
-            <!--Grid row-->
+            <!--Grid column-->
           </div>
-        </section>
-        <!--Section: Banner-->
+          <!--Grid row-->
+        </div>
+      </section>
+      <!--Section: Banner-->
 
-        <!-- Hinh anh sinh vien tai nhat ban -->
-        <section id="du-hoc">
-          <div class="container">
-            <h6
-              class="font-weight-bold text-center text-uppercase small mb-4"
-              style="font-size: 3em;
+      <!-- Hinh anh sinh vien tai nhat ban -->
+      <section id="du-hoc">
+        <div class="container">
+          <h3
+            class="font-weight-bold text-center text-uppercase small mb-4"
+            style="font-size: 2em;
              color: rgba(236, 240, 241,0.8);"
-            >
-              Khoảnh Khắc
-            </h6>
-            <h3
-              class="font-weight-bold text-center pb-4 text-uppercase text-white"
-            >
-              Sinh Viên LHU Đi Nhật Bản
-            </h3>
+          >
+            Khoảnh Khắc
+          </h3>
+          <h3
+            class="font-weight-bold text-center pb-4 text-uppercase text-white"
+          >
+            Sinh Viên LHU Đi Nhật Bản
+          </h3>
 
-            <!-- <p class="lead text-center text-muted pt-2 mb-5">Những khoảnh khắc </p> -->
+          <!-- <p class="lead text-center text-muted pt-2 mb-5">Những khoảnh khắc </p> -->
 
-            <!-- Grid row -->
-            <div class="gallery" id="gallery">
-              <!-- Grid column -->
-              <div class="mb-3 hoverable">
-                <img
-                  class="img-fluid z-depth-1 rounded lazy-image "
-                  data-src="./assets/img/sinhvienlachongnhatban/sinh-vien-lac-hong-nhat-ban-vel-2.webp"
-                  alt="sinh-vien-lac-hong-nhat-ban-vel-2"
-                />
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="mb-3 hoverable">
-                <img
-                  class="img-fluid z-depth-1 rounded lazy-image wow "
-                  data-src="./assets/img/sinhvienlachongnhatban/sinh-vien-lac-hong-nhat-ban-1-1.webp"
-                  alt="sinh-vien-lac-hong-nhat-ban-1-1"
-                />
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="mb-3 hoverable">
-                <img
-                  class="img-fluid z-depth-1 rounded lazy-image wow "
-                  data-src="./assets/img/sinhvienlachongnhatban/sinh-vien-lac-hong-nhat-ban-2.webp"
-                  alt="sinh-vien-lac-hong-nhat-ban-2.webp"
-                />
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="mb-3 hoverable">
-                <img
-                  class="img-fluid z-depth-1 rounded lazy-image wow "
-                  data-src="./assets/img/sinhvienlachongnhatban/sinh-vien-lac-hong-nhat-ban-vel-3.webp"
-                  alt="sinh-vien-lac-hong-nhat-ban-vel-3"
-                />
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="mb-3 hoverable">
-                <img
-                  class="img-fluid z-depth-1 rounded lazy-image wow "
-                  data-src="./assets/img/sinhvienlachongnhatban/sinh-vien-lac-hong-nhat-ban-vel-1.webp"
-                  alt="sinh-vien-lac-hong-nhat-ban-vel-1.webp"
-                />
-              </div>
-              <!-- Grid column -->
-
-              <!-- Grid column -->
-              <div class="mb-3 hoverable">
-                <img
-                  class="img-fluid z-depth-1 rounded lazy-image wow "
-                  data-src="./assets/img/sinhvienlachongnhatban/sinh-vien-lac-hong-nhat-ban-3.webp"
-                  alt="Card image cap"
-                />
-              </div>
-              <!-- Grid column -->
+          <!-- Grid row -->
+          <div class="gallery" id="gallery">
+            <!-- Grid column -->
+            <div class="mb-3 hoverable">
+              <img
+                class="img-fluid z-depth-1 rounded lazy-image "
+                data-src="./assets/img/sinhvienlachongnhatban/sinh-vien-lac-hong-nhat-ban-vel-2.webp"
+                alt="sinh-vien-lac-hong-nhat-ban-vel-2"
+              />
             </div>
-            <!-- Grid row -->
-          </div>
-        </section>
-        <!-- Hinh anh sinh vien tai nhat ban -->
+            <!-- Grid column -->
 
-        <!-- Video gioi thieu -->
-        <section>
-          <div class="container">
-            <h6
-              class="font-weight-bold text-center text-uppercase small mb-5"
-              style="font-size: 2em;
+            <!-- Grid column -->
+            <div class="mb-3 hoverable">
+              <img
+                class="img-fluid z-depth-1 rounded lazy-image wow "
+                data-src="./assets/img/sinhvienlachongnhatban/sinh-vien-lac-hong-nhat-ban-1-1.webp"
+                alt="sinh-vien-lac-hong-nhat-ban-1-1"
+              />
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="mb-3 hoverable">
+              <img
+                class="img-fluid z-depth-1 rounded lazy-image wow "
+                data-src="./assets/img/sinhvienlachongnhatban/sinh-vien-lac-hong-nhat-ban-2.webp"
+                alt="sinh-vien-lac-hong-nhat-ban-2.webp"
+              />
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="mb-3 hoverable">
+              <img
+                class="img-fluid z-depth-1 rounded lazy-image wow "
+                data-src="./assets/img/sinhvienlachongnhatban/sinh-vien-lac-hong-nhat-ban-vel-3.webp"
+                alt="sinh-vien-lac-hong-nhat-ban-vel-3"
+              />
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="mb-3 hoverable">
+              <img
+                class="img-fluid z-depth-1 rounded lazy-image wow "
+                data-src="./assets/img/sinhvienlachongnhatban/sinh-vien-lac-hong-nhat-ban-vel-1.webp"
+                alt="sinh-vien-lac-hong-nhat-ban-vel-1.webp"
+              />
+            </div>
+            <!-- Grid column -->
+
+            <!-- Grid column -->
+            <div class="mb-3 hoverable">
+              <img
+                class="img-fluid z-depth-1 rounded lazy-image wow "
+                data-src="./assets/img/sinhvienlachongnhatban/sinh-vien-lac-hong-nhat-ban-3.webp"
+                alt="Card image cap"
+              />
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Hinh anh sinh vien tai nhat ban -->
+
+      <!-- Video gioi thieu -->
+      <section>
+        <div class="container">
+          <h6
+            class="font-weight-bold text-center text-uppercase small mb-5"
+            style="font-size: 2em;
              color: rgba(52, 73, 94,0.2);
              transform: translateY(10px)"
+          >
+            Sinh viên nghĩ gì về ngành Nhật Bản
+          </h6>
+
+          <div class="z-depth-1">
+            <!-- Modal1 -->
+            <div
+              class="modal fade"
+              id="modal1"
+              tabindex="-1"
+              role="dialog"
+              aria-hidden="true"
             >
-              Sinh viên nghĩ gì về ngành Nhật Bản
-            </h6>
-
-            <div class="z-depth-1">
-              <!-- Modal1 -->
               <div
-                class="modal fade"
-                id="modal1"
-                tabindex="-1"
-                role="dialog"
-                aria-hidden="true"
+                class="modal-dialog modal-lg modal-dialog-centered"
+                role="document"
               >
-                <div
-                  class="modal-dialog modal-lg modal-dialog-centered"
-                  role="document"
-                >
-                  <div class="modal-content">
-                    <div
-                      class="embed-responsive embed-responsive-16by9 z-depth-1-half"
-                    >
-                      <iframe
-                        class="player"
-                        class="embed-responsive-item"
-                        src="https://www.youtube.com/embed/YlUmqa0J0uw"
-                        frameborder="0"
-                        allow="autoplay; encrypted-media"
-                        allowfullscreen
-                      ></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- Modal1 -->
-
-              <!-- Modal2 -->
-              <div
-                class="modal fade"
-                id="modal2"
-                tabindex="-1"
-                role="dialog"
-                aria-hidden="true"
-              >
-                <div
-                  class="modal-dialog modal-lg modal-dialog-centered"
-                  role="document"
-                >
-                  <div class="modal-content">
-                    <div
-                      class="embed-responsive embed-responsive-16by9 z-depth-1-half"
-                    >
-                      <iframe
-                        class="player"
-                        class="embed-responsive-item"
-                        src="https://www.youtube.com/embed/xK5_XD81ekc"
-                        frameborder="0"
-                        allow="autoplay; encrypted-media"
-                        allowfullscreen
-                      ></iframe>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <!-- Modal2 -->
-
-              <div class="row no-gutters">
-                <div class="col-lg-6 order-md-2">
-                  <div class="view hoverable">
-                    <img
-                      class="img-fluid lazy-image"
-                      data-src="./assets/img/sinhvienlachongnhatban/phong-van-sinh-vien-dang-hoc-nhat-ban-lhu.webp"
-                      alt="Video title"
-                    />
-                    <div
-                      class="mask flex-center"
-                      style="background-color: rgba(0, 0 , 0, 0.1);"
-                    >
-                      <a
-                        class="play"
-                        class="btn-floating btn-danger btn-lg rounded"
-                        data-toggle="modal"
-                        data-target="#modal1"
-                        ><i class="fas fa-play text-white"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-
-                <div
-                  class="col-lg-6 mx-auto d-flex align-items-center text-white"
-                  style="background-color: #FFABBE;"
-                >
-                  <div class="px-4 py-4 py-lg-0">
-                    <h4 class="font-weight-normal mb-4">
-                      Các Bạn Sinh Viên Đang Học Chia Sẻ Điều Gì?
-                    </h4>
-                    <p class="mb-0">
-                      Nói có sách, mách có chứng. Hãy cùng lắng nghe những bạn
-                      sinh viên đang học Ngành Nhật Bản chia sẻ về những trải
-                      nghiệm học của mình ở LHU nhé!.
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="row no-gutters" style="background-color: #fb3;">
-                <div class="col-lg-6 ">
-                  <div class="view hoverable">
-                    <img
-                      class="img-fluid lazy-image"
-                      data-src="./assets/img/sinhvienlachongnhatban/phong-van-sinh-vien-dang-hoc-nhat-ban-lhu-2.webp"
-                      alt="Video title"
-                    />
-                    <div
-                      class="mask flex-center"
-                      style="background-color: rgba(0, 0 , 0, 0.1);"
-                    >
-                      <a
-                        class="play"
-                        class="btn-floating btn-danger btn-lg rounded"
-                        data-toggle="modal"
-                        data-target="#modal2"
-                        ><i class="fas fa-play text-white"></i
-                      ></a>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  class="order-md-2 col-lg-6 mx-auto d-flex align-items-center text-white"
-                  style="background-color: #83CCE6;"
-                >
-                  <div class="px-4 py-4 py-lg-0">
-                    <h4 class="font-weight-normal mb-4">
-                      Vì Sao Bạn Nên Chọn Đại Học Lạc Hồng?
-                    </h4>
-                    <p class="mb-0">
-                      Nói có sách, mách có chứng. Hãy cùng lắng nghe những bạn
-                      sinh viên đang học Ngành Nhật Bản chia sẻ về những trải
-                      nghiệm học của mình ở LHU nhé!.
-                    </p>
+                <div class="modal-content">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="player"
+                      class="embed-responsive-item"
+                      src="https://www.youtube.com/embed/YlUmqa0J0uw"
+                      frameborder="0"
+                      allow="autoplay; encrypted-media"
+                      allowfullscreen
+                    ></iframe>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </section>
-        <!-- Video gioi thieu -->
+            <!-- Modal1 -->
 
-        <!--Section: Giang vien nguoi Nhat-->
-        <section id="moi-truong-hoc-tap">
-          <div class="container">
-            <h3
-              class="font-weight-bold text-center text-uppercase  "
-              style="font-size: 2em;
+            <!-- Modal2 -->
+            <div
+              class="modal fade"
+              id="modal2"
+              tabindex="-1"
+              role="dialog"
+              aria-hidden="true"
+            >
+              <div
+                class="modal-dialog modal-lg modal-dialog-centered"
+                role="document"
+              >
+                <div class="modal-content">
+                  <div
+                    class="embed-responsive embed-responsive-16by9 z-depth-1-half"
+                  >
+                    <iframe
+                      class="player"
+                      class="embed-responsive-item"
+                      src="https://www.youtube.com/embed/xK5_XD81ekc"
+                      frameborder="0"
+                      allow="autoplay; encrypted-media"
+                      allowfullscreen
+                    ></iframe>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Modal2 -->
+
+            <div class="row no-gutters">
+              <div class="col-lg-6 order-md-2">
+                <div class="view hoverable">
+                  <img
+                    class="img-fluid lazy-image"
+                    data-src="./assets/img/sinhvienlachongnhatban/phong-van-sinh-vien-dang-hoc-nhat-ban-lhu.webp"
+                    alt="Video title"
+                  />
+                  <div
+                    class="mask flex-center"
+                    style="background-color: rgba(0, 0 , 0, 0.1);"
+                  >
+                    <a
+                      class="play"
+                      class="btn-floating btn-danger btn-lg rounded"
+                      data-toggle="modal"
+                      data-target="#modal1"
+                      ><i class="fas fa-play text-white"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                class="col-lg-6 mx-auto d-flex align-items-center text-white"
+                style="background-color: #FFABBE;"
+              >
+                <div class="px-4 py-4 py-lg-0">
+                  <h4 class="font-weight-normal mb-4">
+                    Các Bạn Sinh Viên Đang Học Chia Sẻ Điều Gì?
+                  </h4>
+                  <p class="mb-0">
+                    Nói có sách, mách có chứng. Hãy cùng lắng nghe những bạn
+                    sinh viên đang học Ngành Nhật Bản chia sẻ về những trải
+                    nghiệm học của mình ở LHU nhé!.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="row no-gutters" style="background-color: #fb3;">
+              <div class="col-lg-6 ">
+                <div class="view hoverable">
+                  <img
+                    class="img-fluid lazy-image"
+                    data-src="./assets/img/sinhvienlachongnhatban/phong-van-sinh-vien-dang-hoc-nhat-ban-lhu-2.webp"
+                    alt="Video title"
+                  />
+                  <div
+                    class="mask flex-center"
+                    style="background-color: rgba(0, 0 , 0, 0.1);"
+                  >
+                    <a
+                      class="play"
+                      class="btn-floating btn-danger btn-lg rounded"
+                      data-toggle="modal"
+                      data-target="#modal2"
+                      ><i class="fas fa-play text-white"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="order-md-2 col-lg-6 mx-auto d-flex align-items-center text-white"
+                style="background-color: #83CCE6;"
+              >
+                <div class="px-4 py-4 py-lg-0">
+                  <h4 class="font-weight-normal mb-4">
+                    Vì Sao Bạn Nên Chọn Đại Học Lạc Hồng?
+                  </h4>
+                  <p class="mb-0">
+                    Nói có sách, mách có chứng. Hãy cùng lắng nghe những bạn
+                    sinh viên đang học Ngành Nhật Bản chia sẻ về những trải
+                    nghiệm học của mình ở LHU nhé!.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Video gioi thieu -->
+
+      <!--Section: Giang vien nguoi Nhat-->
+      <section id="moi-truong-hoc-tap">
+        <div class="container">
+          <h3
+            class="font-weight-bold text-center text-uppercase  "
+            style="font-size: 2em;
           color: rgba(52, 73, 94,0.2);"
-            >
-              Môi trường
-            </h3>
+          >
+            Môi trường
+          </h3>
 
-            <!--Grid row-->
-            <div class="row my-5">
-              <!--Grid column-->
-              <div class="col-lg-6 col-md-12">
-                <!--First row-->
-                <div class="row">
-                  <div class="col-1 mr-3">
-                    <i class="fas fa-users fa-2x indigo-text"></i>
-                  </div>
-                  <div class="col-10">
-                    <h5 class="feature-title indigo-text">
-                      Đội ngũ giảng viên
-                    </h5>
-                    <p class="dark-grey-text">
-                      Đội ngũ giảng viên được học tập tại Nhật Bản và bên cạnh
-                      đó là các chuyên gia người Nhật.
-                    </p>
-                  </div>
+          <!--Grid row-->
+          <div class="row my-5">
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12">
+              <!--First row-->
+              <div class="row">
+                <div class="col-1 mr-3">
+                  <i class="fas fa-users fa-2x indigo-text"></i>
                 </div>
-                <!--/First row-->
-
-                <!--Second row-->
-                <div class="row">
-                  <div class="col-1 mr-3">
-                    <i class="fas fa-book fa-2x blue-text"></i>
-                  </div>
-                  <div class="col-10">
-                    <h5 class="feature-title blue-text">Sách và tài liệu</h5>
-                    <p class="dark-grey-text">
-                      Ngành Nhật Bản có cả một kho tàng tư liệu sách về văn hóa,
-                      lịch sử và con người đất nước Nhật Bản đang chờ các bạn
-                      khám phá.
-                    </p>
-                  </div>
-                </div>
-                <!--/Second row-->
-
-                <!--Third row-->
-                <div class="row">
-                  <div class="col-1 mr-3">
-                    <i class="fas fa-graduation-cap fa-2x cyan-text"></i>
-                  </div>
-                  <div class="col-10">
-                    <h5 class="feature-title cyan-text">Bài giảng phong phú</h5>
-                    <p class="dark-grey-text">
-                      Với cách dạy của người Nhật - Học vừa chơi, chơi vừa học,
-                      hứa hẹn sẽ mang lại cho sinh viên cảm giác thú vị, vui vẻ
-                      mà vẫn tiếp thu được bài học.
-                    </p>
-                  </div>
-                </div>
-                <!--/Third row-->
-              </div>
-              <!--/Grid column-->
-
-              <!--Grid column-->
-              <div class="col-lg-6 col-md-12">
-                <div class="embed-responsive embed-responsive-16by9">
-                  <iframe
-                    title="Giới thiệu giảng viên Ngành Nhật Bản"
-                    class="rounded z-depth-1"
-                    src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flhuniversity%2Fvideos%2F1202314836581198%2F&show_text=0"
-                    width="560"
-                    height="315"
-                    style="border:none;overflow:hidden"
-                    scrolling="no"
-                    frameborder="0"
-                    allowTransparency="true"
-                    allowfullscreen="true"
-                  ></iframe>
+                <div class="col-10">
+                  <h5 class="feature-title indigo-text">
+                    Đội ngũ giảng viên
+                  </h5>
+                  <p class="dark-grey-text">
+                    Đội ngũ giảng viên được học tập tại Nhật Bản và bên cạnh đó
+                    là các chuyên gia người Nhật.
+                  </p>
                 </div>
               </div>
-              <!--/Grid column-->
+              <!--/First row-->
+
+              <!--Second row-->
+              <div class="row">
+                <div class="col-1 mr-3">
+                  <i class="fas fa-book fa-2x blue-text"></i>
+                </div>
+                <div class="col-10">
+                  <h5 class="feature-title blue-text">Sách và tài liệu</h5>
+                  <p class="dark-grey-text">
+                    Ngành Nhật Bản có cả một kho tàng tư liệu sách về văn hóa,
+                    lịch sử và con người đất nước Nhật Bản đang chờ các bạn khám
+                    phá.
+                  </p>
+                </div>
+              </div>
+              <!--/Second row-->
+
+              <!--Third row-->
+              <div class="row">
+                <div class="col-1 mr-3">
+                  <i class="fas fa-graduation-cap fa-2x cyan-text"></i>
+                </div>
+                <div class="col-10">
+                  <h5 class="feature-title cyan-text">Bài giảng phong phú</h5>
+                  <p class="dark-grey-text">
+                    Với cách dạy của người Nhật - Học vừa chơi, chơi vừa học,
+                    hứa hẹn sẽ mang lại cho sinh viên cảm giác thú vị, vui vẻ mà
+                    vẫn tiếp thu được bài học.
+                  </p>
+                </div>
+              </div>
+              <!--/Third row-->
             </div>
-            <!--/Grid row-->
+            <!--/Grid column-->
+
+            <!--Grid column-->
+            <div class="col-lg-6 col-md-12">
+              <div class="embed-responsive embed-responsive-16by9">
+                <iframe
+                  title="Giới thiệu giảng viên Ngành Nhật Bản"
+                  class="rounded z-depth-1"
+                  src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Flhuniversity%2Fvideos%2F1202314836581198%2F&show_text=0"
+                  width="560"
+                  height="315"
+                  style="border:none;overflow:hidden"
+                  scrolling="no"
+                  frameborder="0"
+                  allowTransparency="true"
+                  allowfullscreen="true"
+                ></iframe>
+              </div>
+            </div>
+            <!--/Grid column-->
           </div>
-          <div class="container">
-            <div class="d-flex flex-column flex-md-row">
-              <div class="pb-2 p-md-2">
-                <a class="card hoverable mb-3">
-                  <!-- Card image -->
-                  <img
-                    class="img-fluid lazy-image"
-                    data-src="./assets/img/csvc/co-so-vat-chat-2.jpg"
-                    alt="Card image cap"
-                  />
-                </a>
-              </div>
-              <div class="pb-2 p-md-2">
-                <a class="card hoverable mb-3">
-                  <!-- Card image -->
-                  <img
-                    class="img-fluid lazy-image"
-                    data-src="./assets/img/moitruonghoctap/moi-truong-hoc-tap-6.webp"
-                    alt="Sân thể thao"
-                  />
-                </a>
-              </div>
-              <div class="pb-2 p-md-2">
-                <a class="card hoverable mb-3">
-                  <!-- Card image -->
-                  <img
-                    class="img-fluid lazy-image"
-                    data-src="./assets/img/moitruonghoctap/moi-truong-hoc-tap-4.webp"
-                    alt="Phòng máy"
-                  />
-                </a>
-              </div>
+          <!--/Grid row-->
+        </div>
+        <div class="container">
+          <div class="d-flex flex-column flex-md-row">
+            <div class="pb-2 p-md-2">
+              <a class="card hoverable mb-3">
+                <!-- Card image -->
+                <img
+                  class="img-fluid lazy-image"
+                  data-src="./assets/img/csvc/co-so-vat-chat-2.jpg"
+                  alt="Card image cap"
+                />
+              </a>
             </div>
-            <div class="d-flex flex-column flex-md-row">
-              <div class="pb-2 p-md-2">
-                <a class="card hoverable mb-3">
-                  <!-- Card image -->
-                  <img
-                    class="img-fluid lazy-image"
-                    data-src="./assets/img//moitruonghoctap/moi-truong-hoc-tap-5.webp"
-                    alt="Phòng Gym"
-                  />
-                </a>
-              </div>
-              <div class="pb-2 p-md-2">
-                <a class="card hoverable mb-3">
-                  <!-- Card image -->
-                  <img
-                    class="img-fluid lazy-image"
-                    data-src="./assets/img/moitruonghoctap/moi-truong-hoc-tap-3.webp"
-                    alt="Card image cap"
-                  />
-                </a>
-              </div>
+            <div class="pb-2 p-md-2">
+              <a class="card hoverable mb-3">
+                <!-- Card image -->
+                <img
+                  class="img-fluid lazy-image"
+                  data-src="./assets/img/moitruonghoctap/moi-truong-hoc-tap-6.webp"
+                  alt="Sân thể thao"
+                />
+              </a>
+            </div>
+            <div class="pb-2 p-md-2">
+              <a class="card hoverable mb-3">
+                <!-- Card image -->
+                <img
+                  class="img-fluid lazy-image"
+                  data-src="./assets/img/moitruonghoctap/moi-truong-hoc-tap-4.webp"
+                  alt="Phòng máy"
+                />
+              </a>
             </div>
           </div>
-        </section>
-        <!--Section: Giang vien nguoi Nhat-->
+          <div class="d-flex flex-column flex-md-row">
+            <div class="pb-2 p-md-2">
+              <a class="card hoverable mb-3">
+                <!-- Card image -->
+                <img
+                  class="img-fluid lazy-image"
+                  data-src="./assets/img//moitruonghoctap/moi-truong-hoc-tap-5.webp"
+                  alt="Phòng Gym"
+                />
+              </a>
+            </div>
+            <div class="pb-2 p-md-2">
+              <a class="card hoverable mb-3">
+                <!-- Card image -->
+                <img
+                  class="img-fluid lazy-image"
+                  data-src="./assets/img/moitruonghoctap/moi-truong-hoc-tap-3.webp"
+                  alt="Card image cap"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Section: Giang vien nguoi Nhat-->
 
-        <!-- CHUYEN NGANH DAO TAO -->
+      <!-- CHUYEN NGANH DAO TAO -->
 
-        <section id="thongtin">
-          <div class="container text-white">
-            <div class="row">
-              <div class="col-md-4 mb-3">
-                <h6 class="font-weight-bold">TỔ HỢP MÔN XÉT TUYỂN</h6>
-                <p>
-                  <i class="far fa-check-square orange-text "></i> Văn, Sử, Địa
-                  (C00) <br />
-                  <i class="far fa-check-square orange-text"></i> Toán, Văn, anh
-                  văn (D01) <br />
-                  <i class="far fa-check-square orange-text"></i> Văn, sử, địa
-                  (C00) <br />
-                  <i class="far fa-check-square orange-text"></i> Văn, sử, địa
-                  (C00) <br />
-                </p>
+      <section id="thongtin">
+        <div class="container text-white">
+          <div class="row">
+            <div class="col-md-4 mb-3">
+              <h6 class="font-weight-bold">TỔ HỢP MÔN XÉT TUYỂN</h6>
+              <p>
+                <i class="far fa-check-square orange-text "></i> Văn, Sử, Địa
+                (C00) <br />
+                <i class="far fa-check-square orange-text"></i> Toán, Văn, anh
+                văn (D01) <br />
+                <i class="far fa-check-square orange-text"></i> Văn, sử, địa
+                (C00) <br />
+                <i class="far fa-check-square orange-text"></i> Văn, sử, địa
+                (C00) <br />
+              </p>
+            </div>
+            <div class="col-md-4 mb-3">
+              <h6 class="font-weight-bold">HỆ ĐÀO TẠO VÀ THỜI GIAN</h6>
+              <p>
+                <i class="fas fa-award orange-text"></i> Đại học chính quy.
+                <br />
+                <i class="far fa-clock orange-text"></i>
+                <strong>3.5</strong> năm + <strong>0.5</strong> năm thực tập
+                doanh nghiệp
+              </p>
+            </div>
+            <div class="col-md-4 mb-3">
+              <h6 class="font-weight-bold">CHƯƠNG TRÌNH ĐÀO TẠO</h6>
+              <p>
+                <i class="far fa-check-square orange-text"></i> Kỹ năng nghe -
+                nói - đọc - viết tiếng Nhật <br />
+                <i class="far fa-check-square orange-text"></i> Ngữ âm học, từ
+                vựng học, ngữ pháp học tiếng Nhật <br />
+                <i class="far fa-check-square orange-text"></i> Lịch sử, văn
+                hóa, văn học tiếng Nhật <br />
+                <i class="far fa-check-square orange-text"></i> Tiếng Nhật tổng
+                hợp, luật pháp, hành chính, kinh tế, chính trị, kiến trúc, y
+                học, du lịch. <br />
+                <i class="far fa-check-square orange-text"></i> Thực hành dịch,
+                lý thuyết dịch
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CHUYEN NGANH DAO TAO -->
+
+      <section id="nganh-lien-quan">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h3
+                class="font-weight-bold text-center text-uppercase  "
+                style="font-size: 2em;
+          color: rgba(52, 73, 94,0.2);"
+              >
+                Ngành liên quan
+              </h3>
+            </div>
+          </div>
+          <div class="row my-5">
+            <div class="col-md-4 col-12">
+              <div class="nganhlienquan-wrap shadow-lg mb-3">
+                <a
+                  href="https://tuyensinh.lhu.edu.vn/ngon-ngu-trung-quoc"
+                  target="_blank"
+                  class="link-overlay"
+                ></a>
+                <div class="nganh-lien-quan-img">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/nganhlienquan/cn.webp"
+                    alt="Ngôn ngữ Trung Quốc"
+                  />
+                </div>
+                <h4 class="text-center">Ngôn ngữ Trung Quốc</h4>
               </div>
-              <div class="col-md-4 mb-3">
-                <h6 class="font-weight-bold">HỆ ĐÀO TẠO VÀ THỜI GIAN</h6>
-                <p>
-                  <i class="fas fa-award orange-text"></i> Đại học chính quy.
-                  <br />
-                  <i class="far fa-clock orange-text"></i>
-                  <strong>3.5</strong> năm + <strong>0.5</strong> năm thực tập
-                  doanh nghiệp
-                </p>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="nganhlienquan-wrap shadow-lg mb-3">
+                <a
+                  href="https://tuyensinh.lhu.edu.vn/ngon-ngu-han-quoc"
+                  target="_blank"
+                  class="link-overlay"
+                ></a>
+                <div class="nganh-lien-quan-img">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/nganhlienquan/kr.webp"
+                    alt="Ngôn ngữ Hàn Quốc"
+                  />
+                </div>
+                <h4 class="text-center">Ngôn ngữ Hàn Quốc</h4>
               </div>
-              <div class="col-md-4 mb-3">
-                <h6 class="font-weight-bold">CHƯƠNG TRÌNH ĐÀO TẠO</h6>
-                <p>
-                  <i class="far fa-check-square orange-text"></i> Kỹ năng nghe -
-                  nói - đọc - viết tiếng Nhật <br />
-                  <i class="far fa-check-square orange-text"></i> Ngữ âm học, từ
-                  vựng học, ngữ pháp học tiếng Nhật <br />
-                  <i class="far fa-check-square orange-text"></i> Lịch sử, văn
-                  hóa, văn học tiếng Nhật <br />
-                  <i class="far fa-check-square orange-text"></i> Tiếng Nhật
-                  tổng hợp, luật pháp, hành chính, kinh tế, chính trị, kiến
-                  trúc, y học, du lịch. <br />
-                  <i class="far fa-check-square orange-text"></i> Thực hành
-                  dịch, lý thuyết dịch
-                </p>
+            </div>
+            <div class="col-md-4 col-12">
+              <div class="nganhlienquan-wrap shadow-lg mb-3">
+                <a
+                  href="https://tuyensinh.lhu.edu.vn/viet-nam-hoc"
+                  target="_blank"
+                  class="link-overlay"
+                ></a>
+                <div class="nganh-lien-quan-img">
+                  <img
+                    class="img-fluid"
+                    src="assets/img/nganhlienquan/vn.webp"
+                    alt="Việt Nam học"
+                  />
+                </div>
+
+                <h4 class="text-center">Việt Nam học</h4>
               </div>
             </div>
           </div>
-        </section>
-        <!-- CHUYEN NGANH DAO TAO -->
-      </div>
+        </div>
+      </section>
     </main>
     <!--Main layout-->
 
     <!--Footer-->
     <footer class="page-footer font-small wow fadeIn" id="lienhe">
-      <!--Call to action-->
-      <div class="pt-4"></div>
-      <!--/.Call to action-->
-
-      <hr class="my-4" />
-      <div class="container ">
-        <div class="row">
-          <div class="col-md-1 col-12 mb-3 text-center">
-            <a href="https://lhu.edu.vn">
-              <img
-                class="lazy-image"
-                data-src="./assets/img/logo-lac-hong.png"
-                alt="logo đại học lạc hồng"
-                height="60px"
-              />
-            </a>
-          </div>
-          <div class="col-md-7 col-12 px-0 mb-3 text-center text-md-left">
-            <h4>TRƯỜNG ĐẠI HỌC LẠC HỒNG</h4>
-            <p>
-              Số 10, Huỳnh Văn Nghệ, P. Bửu Long, Tp. Biên Hòa - Tỉnh Đồng Nai
-            </p>
-          </div>
-          <div class="col-md-4 mb-2">
-            <h4 class="mb-3">LIÊN HỆ</h4>
-            <p class="my-2">
-              <i class="fas fa-phone mr-2"></i
-              ><a href="tel:0251 73 000 73">(0251) 73 000 73</a>
-            </p>
-            <p class="my-2">
-              <i class="fas fa-envelope mr-2"></i
-              ><a href="https://tuyensinh@lhu.edu.vn">tuyensinh@lhu.edu.vn</a>
-            </p>
-            <p class="my-2">
-              <i class="fas fa-globe mr-2"></i
-              ><a href="https://lhu.edu.vn">https://lhu.edu.vn</a>
-            </p>
-            <p class="my-2">
-              <i class="fab fa-facebook-f mr-2"></i
-              ><a href="https://www.facebook.com/lhuniversity">
-                https://www.facebook.com/lhuniversity</a
-              >
-            </p>
+      <div class="py-5">
+        <div class="container ">
+          <div class="row">
+            <div class="col-md-1 col-12 mb-3 text-center">
+              <a href="https://lhu.edu.vn">
+                <img
+                  class="lazy-image"
+                  data-src="./assets/img/logo-lac-hong.png"
+                  alt="logo đại học lạc hồng"
+                  height="60px"
+                />
+              </a>
+            </div>
+            <div class="col-md-7 col-12 px-0 mb-3 text-center text-md-left">
+              <h4 class="footer-brand">TRƯỜNG ĐẠI HỌC LẠC HỒNG</h4>
+              <p>
+                Số 10, Huỳnh Văn Nghệ, P. Bửu Long, Tp. Biên Hòa - Tỉnh Đồng Nai
+              </p>
+            </div>
+            <div class="col-md-4 mb-2">
+              <h4 class="mb-3">LIÊN HỆ</h4>
+              <p class="my-2">
+                <i class="fas fa-phone mr-2"></i
+                ><a href="tel:0251 73 000 73">(0251) 73 000 73</a>
+              </p>
+              <p class="my-2">
+                <i class="fas fa-envelope mr-2"></i
+                ><a href="https://tuyensinh@lhu.edu.vn">tuyensinh@lhu.edu.vn</a>
+              </p>
+              <p class="my-2">
+                <i class="fas fa-globe mr-2"></i
+                ><a href="https://lhu.edu.vn">lhu.edu.vn</a>
+              </p>
+              <p class="my-2">
+                <i class="fab fa-facebook-f mr-2"></i
+                ><a href="https://www.facebook.com/lhuniversity">
+                  fb.com/lhuniversity</a
+                >
+              </p>
+            </div>
           </div>
         </div>
       </div>
-
       <!--Copyright-->
       <div class="footer-copyright py-3 text-center ">
         © 2020 Đại Học Lạc Hồng

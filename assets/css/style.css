@@ -1,7 +1,7 @@
 /* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
-html,
+.view,
 body,
-.view {
+html {
   height: 100%;
 }
 
@@ -12,14 +12,14 @@ body,
 .carousel .carousel-inner {
   height: 100%;
 }
-.carousel .carousel-inner .carousel-item,
-.carousel .carousel-inner .active {
+.carousel .carousel-inner .active,
+.carousel .carousel-inner .carousel-item {
   height: 100%;
 }
 
 /* Navbar animation */
 .navbar {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .top-nav-collapse {
@@ -35,9 +35,31 @@ body,
 
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
-  background-color: #1c2331;
+  background-color: #203050;
+  color: #fff;
 }
 
+.page-footer h4.footer-brand::after {
+  display: block;
+  content: "";
+  width: 30%;
+  height: 2px;
+  background-color: rgba(232, 67, 147, 1);
+  margin-top: 8px;
+}
+.page-footer a {
+  text-decoration: none;
+  color: #fff;
+}
+.page-footer a:hover {
+  color: red;
+}
+.page-footer hr {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-copyright {
+  background-color: #10203e;
+}
 /* ------- Hinh anh sinh vien lhu tai nhat ban */
 .gallery {
   -webkit-column-count: 3;
@@ -56,7 +78,6 @@ body,
   -ms-transform: scale(1);
   transform: scale(1);
 }
-
 @media (max-width: 450px) {
   .gallery {
     -webkit-column-count: 1;
@@ -79,7 +100,7 @@ body,
 }
 
 #thongtin {
-  background-image: url("/assets/img/bg-chuong-trinh.png");
+  background-image: url("../img/bg-chuong-trinh.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -97,4 +118,77 @@ body,
 #thongtin p {
   line-height: 2.5em;
   word-spacing: 0.1em;
+}
+
+#japan-banner {
+  position: relative;
+  height: 65vh;
+  background-image: url("../img/banner/japan-banner-1-2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#japan-banner,
+#japan-banner a {
+  color: #fff;
+}
+#japan-banner > div {
+  background-color: rgba(0, 0, 0, 0.25);
+  padding-bottom: 5%;
+}
+#japan-banner a {
+  border: 1px solid #fff;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+#nganh-lien-quan .link-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: block;
+}
+
+#nganh-lien-quan .nganhlienquan-wrap {
+  position: relative;
+  color: #2d3436;
+
+  border-radius: 4px;
+}
+
+#nganh-lien-quan .nganhlienquan-wrap h4 {
+  padding: 15px 0;
+  font-size: 1.3em;
+}
+
+#nganh-lien-quan .nganhlienquan-wrap .nganh-lien-quan-img img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 100%;
+}
+
+/* #navbar-lhu .navbar-nav .nav-link.active::after {
+  height: 3px;
+  content: "";
+  display: block;
+  background-image: -webkit-linear-gradient(0deg, #f14437 0, #ed5b0d 99%);
+  position: absolute;
+  bottom: -9px;
+  left: 0;
+  width: 100%;
+} */
+
+.indigo-text {
+  color: #6c5ce7;
+}
+.blue-text {
+  color: #0984e3;
+}
+.cyan-text {
+  color: #81ecec;
+}
+.btn-indigo {
+  background-color: #6c5ce7;
+  color: #fff;
 }
